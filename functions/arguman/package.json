@@ -1,0 +1,16 @@
+{
+  "name": "arguman",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ricardo Casares <ricardocasares@gmail.com> (http://analogic.al/)",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-app": "^4.2.0",
+    "node-fetch": "^1.7.3"
+  }
+}
