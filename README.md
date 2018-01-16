@@ -20,6 +20,8 @@ And deploy the lambda function
 $ apex deploy arguman
 ```
 
+Check the [apex docs](http://apex.run/)
+
 ### Add Alexa trigger for your lambda
 
 Checkout the [docs here](https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html)
