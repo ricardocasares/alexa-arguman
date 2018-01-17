@@ -1,3 +1,3 @@
-const app = require("./arguman");
+const app = require("./app");
 
 exports.handle = app.lambda();
