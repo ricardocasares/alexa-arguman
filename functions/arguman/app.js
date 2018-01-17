@@ -1,5 +1,5 @@
 var alexa = require("alexa-app");
-var app = new alexa.app("sample");
+var app = new alexa.app("arguman");
 
 require("./intents")(app);
 
