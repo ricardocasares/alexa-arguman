@@ -10,7 +10,10 @@ module.exports = function(app) {
         "Find a discussion",
         "Let's talk about something",
         "Let's discuss",
-        "Tell me something"
+        "Tell me something",
+        "Select a topic",
+        "Amuse me",
+        "Say something interesting"
       ]
     },
     (req, res) => {
