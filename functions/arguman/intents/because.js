@@ -1,4 +1,4 @@
-const log = require("debug")("app:intent:expand");
+const log = require("debug")("app:intent:because");
 const { premise } = require("../lib");
 
 const NAME = "WhyIntent";

@@ -1,4 +1,4 @@
-const log = require("debug")("app:intent:expand");
+const log = require("debug")("app:intent:however");
 const { premise } = require("../lib");
 
 const NAME = "HoweverIntent";

@@ -1,4 +1,4 @@
-const log = require("debug")("app:intent:expand");
+const log = require("debug")("app:intent:but");
 const { premise } = require("../lib");
 
 const NAME = "ButIntent";
