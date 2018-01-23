@@ -7,20 +7,20 @@ Big thanks to the folks from [arguman.org](https://en.arguman.org/) for letting 
 ### Installation
 #### Browse to arguman function folder
 
-```
-cd functions/arguman
+```sh
+$ cd functions/arguman
 ````
 
 #### Install npm dependencies
 
-```
-npm install
+```sh
+$ npm install
 ```
 
 #### Generate JSON schema for Skill Builder
 
-```
-npm run model
+```sh
+$ npm run model
 ```
 
 This command will generate your intents schemas and it is compatible with latest beta of Skill Builder.
@@ -31,19 +31,19 @@ Remember to rebuild your model everytime you change your intents or utterances, 
 
 Install `ngrok` using `npm`
 
-```
-npm install -g ngrok
+```sh
+$ npm install -g ngrok
 ```
 
 Tunnel `ngrok` to development server port
 
-```
-ngrok http 3000
+```sh
+$ ngrok http 3000
 ```
 Start the local express server
 
-```
-npm run dev
+```sh
+$ npm run dev
 ```
 
 
