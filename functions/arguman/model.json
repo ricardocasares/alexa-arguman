@@ -18,15 +18,33 @@
         ]
       },
       {
-        "name": "ExpandIntent",
+        "name": "WhyIntent",
         "samples": [
           "Why",
-          "How",
-          "Expand",
-          "Tell me more about it",
+          "Please explain me",
           "Please expand",
-          "But what",
-          "Because"
+          "Expand",
+          "Explain",
+          "Explain me"
+        ]
+      },
+      {
+        "name": "ButIntent",
+        "samples": [
+          "But",
+          "No way",
+          "Impossible",
+          "But what"
+        ]
+      },
+      {
+        "name": "HoweverIntent",
+        "samples": [
+          "However",
+          "It can't be true",
+          "Is it true",
+          "Not really",
+          "Not true"
         ]
       },
       {

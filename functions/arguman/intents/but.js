@@ -1,16 +1,13 @@
 const log = require("debug")("app:intent:expand");
-const { premise, hasType } = require("../lib");
+const { premise } = require("../lib");
 
-const NAME = "ExpandIntent";
+const NAME = "ButIntent";
 const MODEL = {
   utterances: [
-    "Why",
-    "How",
-    "Expand",
-    "Tell me more about it",
-    "Please expand",
-    "But what",
-    "Because"
+    "But",
+    "No way",
+    "Impossible",
+    "But what"
   ]
 };
 
@@ -21,8 +18,8 @@ function handler(req, res) {
 
   log(contention);
 
-  return premise(`${url}.json`).then(({ type, premise }) => {
-    return res.say(hasType(premise, type)).shouldEndSession(false);
+  return premise('but')(`${url}.json`).then(answer => {
+    return res.say(answer).shouldEndSession(false);
   });
 }
 
