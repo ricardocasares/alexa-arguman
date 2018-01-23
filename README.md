@@ -1,6 +1,8 @@
 # Arguman + Alexa
 
-## Usage
+This sample Alexa app demonstrates API data fetching interacting with Alexa.
+
+Big thanks to the folks from [arguman.org](https://en.arguman.org/) for letting me use their API.
 
 ### Installation
 #### Browse to arguman function folder
