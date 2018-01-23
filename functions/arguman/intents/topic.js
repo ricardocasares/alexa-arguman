@@ -1,3 +1,4 @@
+const log = require("debug")("app:intent:topic");
 const { pick } = require("../lib");
 
 module.exports = function(app) {
@@ -6,6 +7,8 @@ module.exports = function(app) {
     {
       utterances: [
         "Pick an argument",
+        "Another one",
+        "Choose another one",
         "Choose a topic",
         "Find a discussion",
         "Let's talk about something",
@@ -17,12 +20,13 @@ module.exports = function(app) {
       ]
     },
     (req, res) => {
-      var store = req.getSession();
+      const store = req.getSession();
 
       return pick().then(contention => {
-        var { title } = contention;
+        log(contention);
+        const { title } = contention;
         store.set("contention", contention);
-        return res.say(title);
+        return res.say(title).shouldEndSession(false);
       });
     }
   );
