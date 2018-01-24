@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arguman should launch properly 1`] = `
+Object {
+  "response": Object {
+    "directives": Array [],
+    "outputSpeech": Object {
+      "ssml": "<speak>Welcome to Arguman!</speak>",
+      "type": "SSML",
+    },
+    "shouldEndSession": false,
+  },
+  "sessionAttributes": Object {},
+  "version": "1.0",
+}
+`;

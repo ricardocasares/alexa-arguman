@@ -1,7 +1,7 @@
 const log = require("debug")("app:intent:because");
 const { premise } = require("../lib");
 
-const NAME = "WhyIntent";
+const NAME = "BecauseIntent";
 const MODEL = {
   utterances: [
     "Why",
@@ -20,7 +20,7 @@ function handler(req, res) {
 
   log(contention);
 
-  return premise('because')(`${url}.json`).then(answer => {
+  return premise("because")(`${url}.json`).then(answer => {
     return res.say(answer).shouldEndSession(false);
   });
 }

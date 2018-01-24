@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arguman should respond to however intents 1`] = `
+Object {
+  "response": Object {
+    "directives": Array [],
+    "outputSpeech": Object {
+      "ssml": "<speak>The Q relies on an accepted premise around power structures. Change, whether gradual or quick, can be effective or ineffective. It depends on the source of the change and whether society accepts the changes e.g by leading those changes, rather than those having them imposed.</speak>",
+      "type": "SSML",
+    },
+    "shouldEndSession": false,
+  },
+  "sessionAttributes": Object {
+    "contention": Object {
+      "absolute_url": "http://en.arguman.org/marxism-is-an-inherently-violent-revolutionary-ideology",
+      "date_creation": "2018-01-18T20:30:51.550Z",
+      "date_modification": "2018-01-19T17:47:51.696Z",
+      "id": 4023,
+      "premise_count": 2,
+      "sender": Object {
+        "id": 29043,
+        "username": "thundax",
+      },
+      "support_rate": 100,
+      "title": "Marxism is an inherently violent revolutionary ideology",
+    },
+  },
+  "version": "1.0",
+}
+`;

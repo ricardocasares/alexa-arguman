@@ -1,0 +1,148 @@
+{
+  "nodes": {
+    "sources": "",
+    "support_rate": 57.142857142857146,
+    "name": "Gradual social change is more effective than radical change ",
+    "parent": null,
+    "owner": "Feminism, BLM etc. ",
+    "pk": 3809,
+    "is_singular": false,
+    "children": [
+      {
+        "sources": "",
+        "name":
+          "The Q relies on an accepted premise around power structures. Change, whether gradual or quick, can be effective or ineffective. It depends on the source of the change and whether society accepts the changes e.g by leading those changes, rather than those having them imposed.",
+        "parent": null,
+        "premise_type": "however",
+        "pk": 28524,
+        "reportable_by_authenticated_user": false,
+        "children": [],
+        "report_count": 0,
+        "user": {
+          "username": "beffh",
+          "absolute_url": "/users/beffh",
+          "id": 31829
+        }
+      },
+      {
+        "sources": "",
+        "name":
+          "Some changes can’t be gradually achieved :\r\n\r\n- Partially having both the starting system and the wanted system, could be worse than having either one of them.\r\n\r\n- Some things can’t be framed as a continuous, you have it, or you don’t, but you can’t have a little of it.",
+        "parent": null,
+        "premise_type": "but",
+        "pk": 28330,
+        "reportable_by_authenticated_user": false,
+        "children": [],
+        "report_count": 0,
+        "user": {
+          "username": "dionisos",
+          "absolute_url": "/users/dionisos",
+          "id": 3513
+        }
+      },
+      {
+        "sources": "",
+        "name":
+          "What do you mean by \"effective\"? If the methods lead to the same result, then by definition they're equally effective, and I would choose the faster one.\r\n\r\nRadicalism is subjective. How do you want to define \"radical change\"? \r\n\r\n",
+        "parent": null,
+        "premise_type": "however",
+        "pk": 26480,
+        "reportable_by_authenticated_user": false,
+        "children": [],
+        "report_count": 0,
+        "user": {
+          "username": "daft_monk",
+          "absolute_url": "/users/daft_monk",
+          "id": 3634
+        }
+      },
+      {
+        "sources": "",
+        "name":
+          "Some fair examples are the first world countries that had more time to develop by temselves their economy and the colonies that could only get to be part of the economy after a revolution.",
+        "parent": null,
+        "premise_type": "because",
+        "pk": 28074,
+        "reportable_by_authenticated_user": false,
+        "children": [],
+        "report_count": 0,
+        "user": {
+          "username": "marmitex99",
+          "absolute_url": "/users/marmitex99",
+          "id": 26817
+        }
+      },
+      {
+        "sources": "",
+        "name":
+          "Throughout history, movements considered radical by the majority have always been necessary to bring about meaningful change. Being quiet rarely does anything, and even if it does, in the meantime, more people are suffering.",
+        "parent": null,
+        "premise_type": "but",
+        "pk": 26481,
+        "reportable_by_authenticated_user": false,
+        "children": [
+          {
+            "sources": "",
+            "name": "That doesn't imply it's better than the gradual changes.",
+            "parent":
+              "Throughout history, movements considered radical by the majority have always been necessary to bring about meaningful change. Being quiet rarely does anything, and even if it does, in the meantime, more people are suffering.",
+            "premise_type": "but",
+            "pk": 28075,
+            "reportable_by_authenticated_user": false,
+            "children": [],
+            "report_count": 0,
+            "user": {
+              "username": "marmitex99",
+              "absolute_url": "/users/marmitex99",
+              "id": 26817
+            }
+          }
+        ],
+        "report_count": 0,
+        "user": {
+          "username": "daft_monk",
+          "absolute_url": "/users/daft_monk",
+          "id": 3634
+        }
+      },
+      {
+        "sources": "",
+        "name":
+          "It is very easy to lose the moral highground in the case of radical change, which often results in the illusion of victimization of the oppressor, and thus the oppressed loses sympathy. ",
+        "parent": null,
+        "premise_type": "because",
+        "pk": 26391,
+        "reportable_by_authenticated_user": false,
+        "children": [
+          {
+            "sources": "",
+            "name":
+              "The oppressor/oppressed dichotomy is usually a very bad way to frame thing.",
+            "parent":
+              "It is very easy to lose the moral highground in the case of radical change, which often results in the illusion of victimization of the oppressor, and thus the oppressed loses sympathy. ",
+            "premise_type": "however",
+            "pk": 28329,
+            "reportable_by_authenticated_user": false,
+            "children": [],
+            "report_count": 0,
+            "user": {
+              "username": "dionisos",
+              "absolute_url": "/users/dionisos",
+              "id": 3513
+            }
+          }
+        ],
+        "report_count": 0,
+        "user": {
+          "username": "usamak88",
+          "absolute_url": "/users/usamak88",
+          "id": 15874
+        }
+      }
+    ],
+    "user": {
+      "username": "usamak88",
+      "id": 15874
+    }
+  }
+}

@@ -21,7 +21,7 @@ function handler(req, res) {
 
   log(contention);
 
-  const { support_rate = 0 } = contention;
+  const { support_rate } = contention;
 
   const percentage = Math.round(support_rate * 100) / 100;
 
@@ -31,4 +31,3 @@ function handler(req, res) {
 }
 
 module.exports = app => app.intent(NAME, MODEL, handler);
-

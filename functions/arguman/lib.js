@@ -18,7 +18,7 @@ exports.premise = type => url =>
     .then(({ premise_type: type, name: premise }) => hasType(premise, type))
     .catch(e => {
       log(e);
-      return 'I have nothing else to say about this.'
+      return "I have nothing else to say about this.";
     });
 
 function hasType(premise, type) {
@@ -27,11 +27,14 @@ function hasType(premise, type) {
   }
 
   return `${type}, ${premise}`;
-};
+}
 
 function selectType(type) {
   return function(x) {
     log(type, x);
     return x.filter(y => y.premise_type === type);
-  }
+  };
 }
+
+exports.hasType = hasType;
+exports.selectType = selectType;
